@@ -33,7 +33,8 @@ function calculate(e){
         ul.appendChild(li);
         setTimeout(function(){
             document.querySelector('.collection-item').remove();
-        }, 3000);
+        }, 9000);
+        document.getElementById('results').style.display = 'none';
     }else{
         alert('Please Fill Your Weight and Your Height');
     }
@@ -49,7 +50,8 @@ function calculate(e){
         ul.appendChild(li);
         setTimeout(function(){
             document.querySelector('.collection-item').remove();
-        }, 5000);
+        }, 9000);
+        document.getElementById('results').style.display = 'none';
     }
     else if(val >= 14.99, val < 25){
         document.getElementById('loading').style.display = 'none';
@@ -63,7 +65,8 @@ function calculate(e){
         ul.appendChild(li);
         setTimeout(function(){
             document.querySelector('.collection-item').remove();
-        }, 3000);
+        }, 9000);
+        document.getElementById('results').style.display = 'none';
     }else if(val >= 25){
         document.getElementById('loading').style.display = 'none';
         document.getElementById('results').style.display = 'block';
@@ -76,7 +79,8 @@ function calculate(e){
         ul.appendChild(li);
         setTimeout(function(){
             document.querySelector('.collection-item').remove();
-        }, 3000);
+        }, 9000);
+        document.getElementById('results').style.display = 'none';
     }
     if(val===null){
         alert('Please Fill Your Weight and Your Height');
